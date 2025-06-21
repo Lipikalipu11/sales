@@ -14,7 +14,7 @@ st.set_page_config(page_title="Sales Analysis Dashboard", layout="wide")
 st.title("📊 Sales Analysis Dashboard")
 
 # File uploader
-uploaded_file = st.file_uploader("", type=['xlsx'])
+uploaded_file = st.file_uploader("Sample B2C Dataset EDA.xlsx", type=['xlsx'])
 
 if uploaded_file is not None:
     # Load data
